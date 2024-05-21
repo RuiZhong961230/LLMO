@@ -44,7 +44,7 @@ def fit_func(indi):
 def RunRand(func):
     global curFEs, curIter, MaxFEs, TrialRuns, DimSize, Metric
     All_Trial_Best = []
-    for i in range(10):
+    for i in range(30):
         BestList = []
         curFEs = 1
         np.random.seed(2024 + 88 * i)
