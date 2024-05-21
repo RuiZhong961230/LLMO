@@ -3,7 +3,7 @@ import google.generativeai as genai
 from copy import deepcopy
 
 
-genai.configure(api_key="AIzaSyBLqAmKWgdIkG9-gzmgdiA-mkHF49DcUpU")
+genai.configure(api_key="Your Gemini API")
 model = genai.GenerativeModel("gemini-pro")
 
 
