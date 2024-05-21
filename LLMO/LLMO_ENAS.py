@@ -67,7 +67,7 @@ def RunRand(func):
                     if curIndi[idx] < 0:
                         curIndi[idx] = 0
 
-            except ValueError:
+            except Exception:
                 curIndi = [np.random.randint(0, 5), np.random.randint(0, 5), np.random.randint(0, 5),
                            np.random.randint(0, 5), np.random.randint(0, 5), np.random.randint(0, 5)]
             curFit = func(curIndi)
