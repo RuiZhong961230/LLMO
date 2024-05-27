@@ -52,10 +52,10 @@ def RunRand(func):
         BestFit = func(BestIndi)
         while curFEs < MaxFEs:
 
-            CR = "Act as an optimizer for adversarial robustness neural architecture search. "
+            CR = "Act as a combinatorial optimizer for adversarial robustness neural architecture search. "
             Insight = "The objective of this task is to maximize the accuracy. "
             Statement = "There are 5 possible operations and 6 edges that need to be deployed. You need to specify a 6-bit array where the value in each index is an integer within [0, 5). The current best solution is " + str(BestIndi) + " with the best accuracy " + str(BestFit) + ". "
-            Experiment = "Give me one example in the array-like format."
+            Experiment = "Give me one solution in the array-like format."
 
             try:
                 response = model.generate_content(CR + Insight + Statement + Experiment)
