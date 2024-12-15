@@ -8,8 +8,9 @@ Large Language Model Assisted Adversarial Robustness Neural Architecture Search
   year={2024},  
   volume={},  
   number={},  
-  pages={1-6},  
-  note={Accepted}  
+  pages={433-437},  
+  note={Accepted},  
+  doi={10.1109/DOCS63458.2024.10704419}  
   }
-
+  
 The datasets of adversarial robustness neural architecture search (ARNAS) are downloaded from https://steffen-jung.github.io/robustness/
