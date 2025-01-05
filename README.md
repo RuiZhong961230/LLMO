@@ -1,6 +1,10 @@
 # LLMO
 Large Language Model Assisted Adversarial Robustness Neural Architecture Search
 
+## Abstract  
+Large Language Models (LLMs) have shown significant promise as evolutionary optimizers. This paper introduces a novel LLM-based Optimizer (LLMO) to address Neural Architecture Search Considering Adversarial Robustness (ARNAS), a classic combinatorial optimization problem. Using the standard CRISPE framework, we design the prompt and employ Gemini to iteratively refine solutions based on its responses. In our numerical experiments, we investigate the performance of LLMO on NAS-Bench-201-based ARNAS tasks with CIFAR-10 and CIFAR-100 datasets. The results, compared with six well-known metaheuristic algorithms (MHAs), highlight the superiority and competitiveness of using LLMs as combinatorial optimizers. The source code is available at https://github.com/RuiZhong961230/LLMO.
+
+## Citation
 @INPROCEEDINGS{Zhong:24,  
   author={Rui, Zhong and Yang, Cao and Jun, Yu and Masaharu, Munetomo},  
   booktitle={2024 6th International Conference on Data-driven Optimization of Complex Systems (DOCS)},  
