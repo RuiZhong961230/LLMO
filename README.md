@@ -6,7 +6,7 @@ Large Language Models (LLMs) have shown significant promise as evolutionary opti
 
 ## Citation
 @INPROCEEDINGS{Zhong:24,  
-  author={Rui, Zhong and Yang, Cao and Jun, Yu and Masaharu, Munetomo},  
+  author={Rui Zhong and Yang Cao and Jun Yu and Masaharu Munetomo},  
   booktitle={2024 6th International Conference on Data-driven Optimization of Complex Systems (DOCS)},  
   title={Large Language Model Assisted Adversarial Robustness Neural Architecture Search},  
   year={2024},  
