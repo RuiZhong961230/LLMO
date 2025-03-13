@@ -13,7 +13,7 @@ Large Language Models (LLMs) have shown significant promise as evolutionary opti
   volume={},  
   number={},  
   pages={433-437},  
-  doi={10.1109/DOCS63458.2024.10704419}  
+  doi={10.1109/DOCS63458.2024.10704419 }  
   }
 
 ## Datasets and Libraries
