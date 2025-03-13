@@ -17,4 +17,7 @@ Large Language Models (LLMs) have shown significant promise as evolutionary opti
   }
 
 ## Datasets and Libraries
-The gemini-pro API is provided by the google.generativeai library, and the dataset of adversarial robustness neural architecture search (ARNAS) is downloaded from https://steffen-jung.github.io/robustness/
+The gemini-pro API is provided by the google.generativeai==0.0.1 library, and the dataset of adversarial robustness neural architecture search (ARNAS) is downloaded from https://steffen-jung.github.io/robustness/
+
+## Contact
+If you have any questions, please don't hesitate to contact zhongrui[at]iic.hokudai.ac.jp
